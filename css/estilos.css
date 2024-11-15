@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#encabezado {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    background-color: rgb(206, 18, 59);
+    text-align: center;
+    margin-left: 0;
+}
+
+.escuderias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 10px;
+}
+
+.logos {
+    display: flex;
+    gap: 18px;
+}
+
+.logo {
+    width: 87px;
+    height: 27px;
+    object-fit: contain;
+}
+
+h1 {
+    color: white;
+    -webkit-text-stroke: .5px black;
+    font-size: 40px;
+    font-family: Georgia, serif;
+    margin: 0;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav a {
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: yellow;
+}
+
+.contenedor {
+    margin-top: 85px;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+}
+
+#menu {
+    color: rgb(206, 18, 59);
+    -webkit-text-stroke: .3px black;
+    font-size: 30px;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 30px;
+    scroll-margin-top: 110px;
+}
+
+.text {
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 350;
+    margin-top: 10px;
+
+}
+
+#comida {
+    color: rgb(206, 18, 59);
+    -webkit-text-stroke: .3px black;
+    font-size: 30px;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 30px;
+    scroll-margin-top: 110px;
+}
+
+#platos {
+    color: rgb(206, 18, 59);
+    -webkit-text-stroke: .3px black;
+    font-size: 30px;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 30px;
+    scroll-margin-top: 110px;
+}
+
+.meel {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    gap: 75px;
+    justify-content: center;
+}
+
+.comida {
+    display: block;
+    width: 375px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.comida-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 570px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 21px;
+}
+
+.edit {
+    margin-top: 7px;
+    font-size: 18px;
+    text-align: justify;
+    flex-grow: 1;
+}
+
+.precio {
+    margin-top: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+#bebidas {
+    color: rgb(206, 18, 59);
+    -webkit-text-stroke: .3px black;
+    font-size: 30px;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 30px;
+    scroll-margin-top: 110px;
+}
+
+.bebidas-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 475px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#postres {
+    color: rgb(206, 18, 59);
+    -webkit-text-stroke: .3px black;
+    font-size: 30px;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 30px;
+    scroll-margin-top: 110px;
+}
+
+.postres-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 475px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#paquetes {
+    color: rgb(206, 18, 59);
+    -webkit-text-stroke: .3px black;
+    font-size: 30px;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 30px;
+    scroll-margin-top: 110px;
+}
+.paquetes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 450px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.xdd {
+    margin-top: 15px;
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: left;
+}
+
+#galeria {
+    color: rgb(206, 18, 59);
+    -webkit-text-stroke: .3px black;
+    font-size: 30px;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 30px;
+    scroll-margin-top: 110px;
+}
+
+.galeria-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 15px;
+}
+
+.lol {
+    display: block;
+    width: 48%; 
+    height: auto; 
+    margin-bottom: 25px; 
+    border-radius: 10px;
+}
+
+#promos {
+    color: rgb(206, 18, 59);
+    -webkit-text-stroke: .3px black;
+    font-size: 30px;
+    font-family: Georgia, serif;
+    text-align: center;
+    margin-top: 30px;
+    scroll-margin-top: 110px;
+}
+
+.xdd-xd {
+    list-style-type: none;
+    margin-top: 25px;
+    text-align: center;
+    padding-left: 20px;
+    font-size: 20px;
+    line-height: 1.6; 
+}
+.xdd-xd p {
+    margin-bottom: 15px;
+}
+
+.pie-pagina {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.6; 
+}
